@@ -1,5 +1,5 @@
 // import FunctionalComponent from "./components/LessonTwo/FunctionalComponent.tsx";
-import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
+// import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 // import ClassComponent from "./components/LessonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout";
@@ -59,11 +59,11 @@ function App() {
      {/*    title="Second Title"*/}
      {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis culpa debitis iste laboriosam magnam minus perspiciatis provident quidem suscipit?" />*/}
 
-    <Layout>
-     <ArrowFunctionalComponentWithProps
-         title="Second Title"
-         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis culpa debitis iste laboriosam magnam minus perspiciatis provident quidem suscipit?"
-        />
+    <Layout addClasses="text-blue-600 bg-gray-100">
+     {/*<ArrowFunctionalComponentWithProps*/}
+     {/*    title="Second Title"*/}
+     {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis culpa debitis iste laboriosam magnam minus perspiciatis provident quidem suscipit?"*/}
+     {/*   />*/}
         <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, voluptatibus?</p>
     </Layout>
     </>
