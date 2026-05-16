@@ -4,6 +4,7 @@
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout";
 import Counter from "./components/LessonFour/Counter.tsx";
+import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 
 // type PropsA = {
 //     title: string,
@@ -67,6 +68,7 @@ function App() {
      {/*   />*/}
      {/*   <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, voluptatibus?</p>*/}
       <Counter/>
+      <ClassCounter/>
     </Layout>
     </>
   )
