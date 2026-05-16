@@ -3,8 +3,9 @@
 // import ClassComponent from "./components/LessonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 import Layout from "./components/Layout";
-import Counter from "./components/LessonFour/Counter.tsx";
-import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
+// import Counter from "./components/LessonFour/Counter.tsx";
+// import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
+import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 
 // type PropsA = {
 //     title: string,
@@ -67,8 +68,9 @@ function App() {
      {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis culpa debitis iste laboriosam magnam minus perspiciatis provident quidem suscipit?"*/}
      {/*   />*/}
      {/*   <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, voluptatibus?</p>*/}
-      <Counter/>
-      <ClassCounter/>
+     {/* <Counter/>*/}
+     {/* <ClassCounter/>*/}
+      <CounterAdvanced/>
     </Layout>
     </>
   )
